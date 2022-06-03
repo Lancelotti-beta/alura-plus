@@ -10,6 +10,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: 400;
@@ -18,6 +19,47 @@ body {
 * {
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
 }
 
+.container {
+    height: 100vh;
+}
 
+.principal {
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.principal__texto {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.principal__conteudo {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    gap: 1rem;
+}
+
+.principal__imagem {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.principal__subtitulo {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+
+    color: var(--cinza-secundario);
+}
