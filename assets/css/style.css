@@ -3,7 +3,7 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    --fonte-principal: 'Inter';
+    --fonte-principal: 'Inter', sans-serif;
     --botao-azul-efeito: #3c92fa;
 }
 
@@ -25,41 +25,6 @@ body {
 
 .container {
     height: 100vh;
-}
 
-.principal {
-    background-image: url("../img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.principal__texto {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 34px;
-}
-
-.principal__conteudo {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
     text-align: center;
-
-    gap: 1rem;
-}
-
-.principal__imagem {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
-.principal__subtitulo {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    /* identical to box height */
-    
-
-    color: var(--cinza-secundario);
 }
