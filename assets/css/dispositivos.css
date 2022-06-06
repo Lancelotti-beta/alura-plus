@@ -1,0 +1,24 @@
+.dispositivos {
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem;
+}
+
+.dispositivos__conteudo {
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0 auto;
+    gap: .5rem
+}
+
+.dispositivos__titulo {
+    font-size: 2rem;
+}
+

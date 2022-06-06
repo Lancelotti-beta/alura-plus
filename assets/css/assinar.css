@@ -1,0 +1,17 @@
+.assinar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    align-items: center;
+
+    padding: 5rem;
+}
+
+.assinar__conteudo {
+    justify-content: center;
+    text-align: left;
+}
+
+.assinar__imagem {
+    width: 85%;
+}

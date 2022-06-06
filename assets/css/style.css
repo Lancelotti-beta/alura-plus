@@ -1,5 +1,6 @@
 :root {
     --branco-principal: #FFFFFF;
+    --branco-secundario: #F9F9F9;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
@@ -12,6 +13,7 @@ body {
     color: var(--branco-principal);
 
     font-family: var(--fonte-principal);
+    font-style: normal;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -27,4 +29,36 @@ body {
     height: 100vh;
 
     text-align: center;
+
+    margin: 0 auto;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+
+    width: 45vw;
+    height: inherit;
+
+    padding: 3rem;
+    gap: 1em;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: 700;
+
+    line-height: 120%;
+
+    color: var(--branco-principal);
+}
+
+.texto {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+
+
+    color: var(--branco-secundario);
+    opacity: 0.8;
 }
