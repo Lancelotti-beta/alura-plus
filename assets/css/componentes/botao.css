@@ -20,7 +20,8 @@
 }
 
 .btn--pequeno {
-    width: 40%;
+    display: inline-block;
+    width: 45%;
 }
 
 .btn--alternativo {

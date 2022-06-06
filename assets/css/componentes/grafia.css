@@ -1,0 +1,19 @@
+.titulo {
+    font-size: 3rem;
+    font-weight: 700;
+
+    line-height: 120%;
+
+    color: var(--branco-principal);
+}
+
+.texto {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+
+
+    color: var(--branco-secundario);
+    opacity: 0.8;
+}
+
