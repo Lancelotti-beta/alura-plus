@@ -19,6 +19,12 @@
     cursor: pointer;
 }
 
+.btn:hover {
+    background: none;
+
+    border: 1px solid var(--branco-principal);
+}
+
 .btn--pequeno {
     display: inline-block;
     width: 45%;
@@ -29,3 +35,4 @@
 
     border: 1px solid var(--branco-principal);
 }
+

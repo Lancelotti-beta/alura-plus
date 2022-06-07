@@ -39,8 +39,12 @@
     opacity: none;
 }
 
+.lista--style:hover {
+    color: var(--botao-azul);
+}
+
 .rodape--texto {
-    font-size: 14px;
+    font-size: .875rem;
 
     color: var(--cinza-secundario);
 }
