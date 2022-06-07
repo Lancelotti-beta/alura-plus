@@ -29,17 +29,25 @@ body {
     height: 100vh;
 
     text-align: center;
-
-    margin: 0 auto;
 }
 
 .conteudo {
     display: flex;
     flex-direction: column;
 
+    height: inherit;
+
+    padding: 2rem;
+    gap: .5rem;
+}
+
+.conteudo--alternativo {
+    display: flex;
+    flex-direction: column;
+
     width: 45vw;
     height: inherit;
 
-    padding: 3rem;
-    gap: 1em;
+    padding: 2rem;
+    gap: .5rem;
 }
