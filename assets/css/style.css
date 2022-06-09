@@ -48,6 +48,7 @@ body {
     width: 45vw;
     height: inherit;
 
-    padding: 2rem;
-    gap: .5rem;
+    margin: .5rem;
+    padding: 3rem;
+    gap: 1rem;
 }

@@ -7,21 +7,23 @@
     align-items: center;
     justify-content: center;
 
-    gap: 1.7rem;
-
+    gap: 1.7em;
+    padding: 1rem;
     margin: 0 auto;
 }
 
 .rodape__imagem {
     width: 102px;
     height: 35.28px;
+
+    margin: 2rem 0;
 }
 
 .rodape__lista {
     display: flex;
 
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
 
     gap: .75rem;
 

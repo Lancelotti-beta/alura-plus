@@ -8,13 +8,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    width: 50vw;
 }
 
 .principal__titulo {
     font-size: 1.75rem;
     line-height: 2.125rem;
 
-    width: 50vw;
 }
 
 .principal__subtitulo {
